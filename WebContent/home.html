@@ -15,10 +15,13 @@
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="lib/angularDemo.js"></script>
 <style>
+body {
+	background-color: #f2f2f2;
+}
+
 #menu li {
 	display: inline;
 	padding: 20px;
-	width: 100%;
 }
 
 #menu ul {
@@ -29,29 +32,20 @@
 	list-style-type: none;
 }
 
-#first a {
-	text-decoration: none;
-	color: #666666;
-	font-family: Open Sans;
-	font-size: 14px;
-	text-align: center;
-}
-
 #menu a {
 	text-decoration: none;
 	color: #666666;
-	font-family: Open Sans;
+	font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica;
 	font-size: 14px;
 	text-align: center;
 	padding: 4px;
-	border: 4px;
 }
 
-#first a:hover {
+#menu a:hover {
 	background-color: #00baed;
 	border: 4px;
 	Color: #FFFFFF;
-	font-family: Open Sans;
+	font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica;
 	font-size: 14px;
 	padding: 4px;
 }
@@ -60,42 +54,51 @@
 	background-color: #00baed;
 	border: 4px;
 	padding: 4px;
-	Color: #FFFFFF;
-	font-family: Open Sans;
-	font-size: 14px;
-	padding: 4px;
-		Border-Radius: 4px;
-}
-
-#menu a:hover {
-	background-color: #00baed;
-	border: 4px;
 	Border-Radius: 4px;
 	color: : #FFFFFF;
-	font-family: Open Sans;
+	font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica;
 	font-size: 14px;
 	padding: 4px;
 }
 
-#first a:hover {
-	background-color: #00baed;
-	border: 4px;
-	padding: 4px;
-	Border-Radius: 4px;
-	color: : #FFFFFF;
-	font-family: Open Sans;
-	font-size: 14px;
-	padding: 4px;
+#first {
+	background-color: #f2f2f2;
 }
 
-.active {
+#second {
+	background-image: url("images/Main_Banner.jpg");
+	height: 441px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#third {
+	background-image: url("images/Summary_BG.jpg");
+	height: 481px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#third label.summary_tittle {
 	background-color: #00baed;
+	color: #FFFFFF;
+	font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica;
+	font-weight: 600;
+	font-size: 18px;
 	border: 4px;
-	padding: 4px;
-	Border-Radius: 4px;
-	color: : #FFFFFF;
-	font-family: Open Sans;
-	font-size: 14px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-right: 6px;
+	padding-left: 6px;
+	margin-bottom: 7px;
+}
+
+#third p.summary_content {
+	color: #000000;
+	font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica;
+	font-size: 13px;
 }
 
 #second_two label.design {
@@ -122,66 +125,52 @@
 	vertical-align: middle;
 }
 
-#third {
-	background-image: url("images/Summary_BG.jpg");
-	height: 481px;
-	width: 100%;
-}
-
-#third label.summary_tittle {
-	background-color: #00baed;
-	color: #FFFFFF;
-	font-family: Open Sans;
-	font-weight: 600;
-	font-size: 18px;
-	border: 4px;
-	padding-top: 4px;
-	padding-bottom: 4px;
-	padding-right: 6px;
-	padding-left: 6px;
-	margin-bottom: 7px;
-}
-
-#third p.summary_content {
-	color: #000000;
-	font-family: Open Sans;
-	font-size: 13px;
-}
-
 #forth {
 	background-image: url("images/Business-Opprtunity_BG.jpg");
 	height: 311px;
 	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 #fifth {
 	background-image: url("images/Persona_BG.jpg");
 	height: 525px;
 	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 #sixth {
 	background-image: url("images/Scneriao_Mapping_BG.jpg");
 	height: 516px;
 	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 #seventh {
 	background-image: url("images/MVp_BG.jpg");
 	height: 463px;
 	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 #eight {
 	background-image: url("images/Goals_NonGoals_BG.jpg");
 	height: 654px;
 	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 #nine {
 	background-image: url("images/Goal_prioritization_BG.jpg");
 	height: 474px;
 	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 ul.dashed>li:before {
@@ -191,20 +180,20 @@ ul.dashed>li:before {
 ul.dashed {
 	list-style: none;
 	color: #ffffff;
-	font-family: Open Sans;
+	font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica;
 	font-size: 14px;
 }
 
 ol.orderedlistone {
 	color: #ffffff;
-	font-family: Open Sans;
+	font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica;
 	font-size: 14px;
 	padding-top: 5px;
 }
 
 label.labelone {
 	color: #ffffff;
-	font-family: Open Sans;
+font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica;
 	font-size: 20px;
 	font-weight: 600;
 	padding-left: 20px;
@@ -214,18 +203,20 @@ label.labelone {
 	background-image: url("images/Team_Bg.jpg");
 	height: 597px;
 	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 label.namehead {
 	color: #ffffff;
-	font-family: Open Sans;
+	font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica;
 	font-size: 18px;
 	text-align: center;
 }
 
 #ten label.designation {
 	color: #ffffff;
-	font-family: Open Sans;
+font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica;
 	font-size: 14px;
 	text-align: center;
 }
@@ -242,503 +233,483 @@ label.namehead {
 	background-image: url("images/Contact_Bg.jpg");
 	height: 212px;
 	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 #last a {
 	color: #00baed;
-	font-family: Open Sans;
+	font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica;
 	font-size: 18px;
 }
 
 a.contactlink {
 	color: #00baed;
-	font-family: Open Sans;
+	font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica;
 	font-size: 18px;
 }
 </style>
 
 </head>
-<body style="width: 100%; background-color: black;">
+<body>
 
-	<div id="first"
-		style="background-color: #f2f2f2; height: 100px; width: 100%;">
-		<table style="height: 100px; width: 100%;">
-			<tr>
-				<td align="left"><img align="middle" src="images/NBN_Logo.png" /></td>
-				<td></td>
-				<td align="left"><a href="#second">Home</a></td>
-				<td align="left"><a href="#third">Summary</a></td>
-				<td align="left"><a href="#forth">Opportunity</a></td>
-				<td align="left"><a href="#fifth">Persona</a></td>
-				<td align="left"><a href="#seventh">MVP</a></td>
-				<td align="left"><a href="#eight">Goal & Non Goals</a></td>
-				<td align="left"><a href="#nine">Goal Priority</a></td>
-				<td align="left"><a href="#ten">Team</a></td>
-				<td align="left"><a href="#last">Contact</a></td>
 
-			</tr>
-		</table>
-
-	</div>
-
-	<!-- <div id="first"
-		style="background-color: #f2f2f2; height: 100px; width: 100%;">
-		<div class="col-sm-2" style="background-color: #f2f2f2;">
-			<img align="middle" src="images/NBN_Logo.png" />
-
-		</div>
-		<div id="menu" class="col-sm-8" style="background-color: #f2f2f2;">
-			<ul>
-
-				<li><a href="#second">Home</a></li>
-				<li><a href="#third">Summary</a></li>
-				<li><a href="#forth">Opportunity</a></li>
-				<li><a href="#fifth">Persona</a></li>
-				<li><a href="#seventh">MVP</a></li>
-				<li><a href="#eight">Goal & Non Goals</a></li>
-				<li><a href="#nine">Goal Priority</a></li>
-				<li><a href="#ten">Team</a></li>
-				<li><a href="#last">Contact</a></li>
-
-			</ul>
-		</div>
-	</div> -->
-
-	<!-- heading...NBN -->
-	<div id="second">
-		<div id="second_one" class="col-sm-6"></div>
-		<div align="center" id="second_two" class="col-sm-6">
-			<label class="design">Design Thinking Workshop</label> <label
-				class="nbn">NBN @ ACIT Cloud Studio</label>
-		</div>
-
-	</div>
-
-	<!-- Summary-->
-	<div id="third">
-		<div align="center">
-			<label
-				style="padding-bottom: 15px; padding-top: 10px; color: #000000; font-family: Open Sans; font-size: 30px; font-weight: 600;">SUMMARY
-			</label>
-		</div>
-		<div style="padding-left: 60px;" id="">
-			<div id="" class="col-sm-3">
-				<label class="summary_tittle">WHO</label> <br>
-				<p class="summary_content">A one day ACIT Design Thinking
-					workshop brought together a multi-disciplinary team from Accenture
-					to define a quick approach to NBN information seeking process on
-					FTTX deployment metrics</p>
+	<div class="main-p-container">
+		<div class="menu-container row" id="first">
+			<div class="col col-md-2" style="">
+				<img src="images/NBN_Logo.png" />
 			</div>
-			<div id="" class="col-sm-3">
-				<label class="summary_tittle">APPROACH</label> <br>
-				<p class="summary_content">Design thinking workshop helped
-					participants empathize with the project's persona: Benoit, an NBN
-					manager. Empathizing with the Persona led the team to identifying
-					the several pain points reflected on feelings during the process of
-					getting information : Frustration, Confusion and time consuming.</p>
-			</div>
-			<div id="" class="col-sm-6">
-				<label class="summary_tittle">VISION & HYPOTHESIS</label> <br>
-				<p class="summary_content">
-					After ideating ways to solve Benoit's needs, the team established
-					the project vision that will give direction to a product design:
-					"As an nbn manager. Benoit can interact with virtual assistant to
-					receive accurate answers in few seconds to questions about data,
-					metrics and analyses. The experience would be similar to that of
-					interacting with human analyst within his team." <br> <br>The
-					team agreed on a hypothesis that will help to test success metrics:<br>-Quicker
-					access to information <br>-Consistency of information provided
-				</p>
-			</div>
-		</div>
+			<div id="menu" class="col"
+				style="padding-top: 25px; margin-left: 100px">
+				<ul>
+					<li><a href="#second">Home</a></li>
+					<li><a href="#third">Summary</a></li>
+					<li><a href="#forth">Opportunity</a></li>
+					<li><a href="#fifth">Persona</a></li>
+					<li><a href="#seventh">MVP</a></li>
+					<li><a href="#eight">Goal & Non Goals</a></li>
+					<li><a href="#nine">Goal Priority</a></li>
+					<li><a href="#ten">Team</a></li>
+					<li><a href="#last">Contact</a></li>
 
-		<div id="" style="padding-left: 60px;">
-			<div id="" class="col-sm-3">
-				<label class="summary_tittle">GAOLS AND NON-GOALS</label> <br>
-				<p class="summary_content">At the end of the session the team
-					defines future actions to help provide more clarity on what is
-					in/out of scope on a minimal viable product (MVP).</p>
-			</div>
-			<div id="" class="col-sm-3">
-				<label class="summary_tittle">UNDERSTAND</label> <br>
-				<p class="summary_content">
-					Business Opportunity<br> <br>Persona
-				</p>
-			</div>
-			<div id="" class="col-sm-3">
-				<label class="summary_tittle">EXPLORE</label> <br>
-				<p class="summary_content">
-					Scenario Mapping<br> <br>Empathy Map
-				</p>
-			</div>
-			<div id="" class="col-sm-3">
-				<label class="summary_tittle">DEFINE</label><br>
-				<p class="summary_content">
-					MVP<br> <br>Goal Prioritization<br> <br>Goals
-					and Non-Goal<br>
-					<br>Assumptions and Risks
-				</p>
-			</div>
-		</div>
-
-	</div>
-
-	<!-- Business Opportunity-->
-	<div id="forth">
-		<div align="center">
-			<label
-				style="padding-bottom: 15px; padding-top: 10px; color: #ffffff; font-family: Open Sans; font-size: 30px; font-weight: 600;">BUSINESS
-				OPPORTUNITY </label>
-		</div>
-
-		<div align="left">
-			<label
-				style="padding-left: 60px; padding-bottom: 15px; padding-top: 30px; color: #ffffff; font-family: Open Sans; font-size: 20px; font-weight: 600;">Virtual
-				assistant for providing FTTX deployment metrics</label>
-			<p
-				style="padding-left: 60px; padding-bottom: 15px; padding-top: 10px; padding-right: 60px; color: #ffffff; font-family: Open Sans; font-size: 18px;">Currently,
-				the NBN users get access to FTTX deployment metrics via an email
-				sent to the analyst. Currently, a significant amount of time and
-				effort is spent by analysts and SMEs in catering to the information
-				requests of the winder organisation. Replacing the existing system
-				with a Virtual Assistant, would act as a single source of truth for
-				the organisation for metrics and related information about the
-				progress of FTTX. Misalignment in number and information can be
-				avoided. Duplicate of reporting can be avoided</p>
-		</div>
-	</div>
-
-	<!-- Persona abd Empthy-->
-	<div id="fifth">
-		<div align="center">
-			<label
-				style="padding-bottom: 30px; padding-top: 10px; color: #ffffff; font-family: Open Sans; font-size: 30px; font-weight: 600;">PERSONA
-				AND EMPATHY MAP</label>
-		</div>
-
-		<div id="">
-			<div id="" class="col-sm-6" style="padding-left: 60px">
-				<label
-					style="color: #ffffff; font-family: Open Sans; font-size: 14px; font-weight: 600;">PERSONA</label>
-			</div>
-			<div id="" class="col-sm-6">
-				<label
-					style="color: #ffffff; font-family: Open Sans; font-size: 14px; font-weight: 600;">EMPATHY
-					MAP</label> <br> <label
-					style="color: #ffffff; font-family: Open Sans; font-size: 13px;">Allows
-					us to gain deeper insight of our target users thinking of them as a
-					persona</label>
-
-			</div>
-
-		</div>
-		<div id="" style="padding-top: 5px">
-			<div id="fifth_one" class="col-sm-6"
-				style="height: 340px; padding-left: 60px">
-				<img alt="" src="images/image_Persona_Block.png">
-			</div>
-			<div id="fifth_two" class="col-sm-6" style="height: 340px;">
-				<img alt="" src="images/image2_Persona_Block.png">
-			</div>
-		</div>
-
-	</div>
-
-
-	<!-- Scenario mapping-->
-	<div id="sixth">
-		<div align="center">
-			<label
-				style="padding-bottom: 30px; padding-top: 10px; color: #ffffff; font-family: Open Sans; font-size: 30px; font-weight: 600;">SENARIO
-				MAPPING</label>
-		</div>
-
-		<div id="" style="padding-bottom: 10px">
-			<div id="" class="col-sm-6" style="padding-left: 60px">
-				<label
-					style="color: #ffffff; font-family: Open Sans; font-size: 14px; font-weight: 600;">AS
-					IS PROCESS</label>
-			</div>
-			<div id="" class="col-sm-6">
-				<label
-					style="color: #ffffff; font-family: Open Sans; font-size: 14px; font-weight: 600;">TO
-					BE PROCESSED</label>
-
-			</div>
-
-		</div>
-		<div id="" style="padding-top: 15px">
-			<div id="sixth_one" class="col-sm-6"
-				style="height: 335px; padding-left: 60px">
-				<img alt="" src="images/Image_Asis_process_Block.png">
-			</div>
-			<div id="sixth_two" class="col-sm-6" style="height: 335px;">
-				<img alt="" src="images/image_Tobeprocess_Block.png">
-			</div>
-		</div>
-
-	</div>
-
-
-
-
-	<!-- MVP-->
-	<div id="seventh">
-		<div align="center"
-			style="vertical-align: middle; position: relative;">
-			<label
-				style="position: absolute; vertical-align: middle; padding-bottom: 30px; padding-top: 10px; color: #ffffff; font-family: Open Sans; font-size: 30px; font-weight: 600;">MVP</label>
-		</div>
-
-		<div id="" style="padding-bottom: 10px; padding-top: 20px">
-			<div id="" class="col-sm-6"
-				style="padding-left: 60px; padding-top: 80px">
-				<label
-					style="color: #ffffff; font-family: Open Sans; font-size: 20px; font-weight: 600;">Minimum
-					Viable Product(MVP)</label> <br> <br> <label
-					style="color: #ffffff; font-family: Open Sans; font-size: 18px;">The
-					minimum features that shall be included in the product and
-					delivered at the end of first cycle of development. Each cycle
-					contains a set of Sprints.</label> <br> <br> <label
-					style="color: #ffffff; font-family: Open Sans; font-size: 18px;">As
-					an nbn manager, I can interact with a virtual assistant to receive
-					accurate answers in 2 seconds to questions about data, metrics and
-					analyses. The experience would be similar to that of interacting
-					with a human analyst within my team.</label>
-			</div>
-			<div id="" class="col-sm-6">
-				<img alt="" src="images/Image_MVP_Block.png">
-
-			</div>
-
-		</div>
-
-
-	</div>
-
-
-
-	<!-- goal and nongoal-->
-	<div id="eight">
-		<div align="center">
-			<label
-				style="padding-bottom: 30px; padding-top: 10px; color: #ffffff; font-family: Open Sans; font-size: 30px; font-weight: 600;">GOAL
-				& NON GOALS</label>
-		</div>
-
-
-
-
-
-		<div id="" style="padding-bottom: 10px">
-			<div id="" class="col-sm-7"
-				style="padding-left: 60px; padding-top: 10px">
-				<label class="labelone"> GOALS </label>
-				<ol type="1" class="orderedlistone">
-					<li>Capture usage statistics</li>
-					<li>Text interaction</li>
-					<li>I can provide feedback on the quality of response to the
-						assistant</li>
-					<li>To be able to do basic queries(e.g.: How many premises
-						were connected last week? ) in given dataset. Numeric answer
-						should be returned with clarification text (E.g.:There were 30000
-						premises connected(Reached RFS) last week.)</li>
-					<li>To be able to provide definitions (E.g.: What is the
-						definition of metric M15?)</li>
-					<li>To be able to do basic comparison queries (e.g.: How has
-						the cycle time of process ABC improved over last month?; Virtual
-						Assistant should return an answer such as Cycle time of process
-						ABC reduced from 30 days to 25 days)</li>
-					<li>A mechanism to alert the user that information they are
-						accessing is confidential or sensitive.</li>
-					<li>A response within a matter of seconds.</li>
-					<li>It should be able to follow on the context of a question
-						from the previos question: similar to an open conversation (E.g :
-						User: How many SAMs completed construction last week? Virtual
-						Assistant: 0 SAMs completed construction last week. User:What
-						about this week? Virtual Assistant : 5 SAMs completed construction
-						this week)</li>
-					<li>If the virtual assistant cannot provide the answer, it
-						should refer the user to a specific person or other report.</li>
-					<li>Virtual Assistant is able to ask clarification questions.</li>
-					<li>Stand-alone Login page to stimulate the experience of a
-						user signing in from the internet.</li>
-					<li>Virtual Assistant will appear as a pop-up that can be made
-						full screen</li>
-					<li>English Language</li>
-					<li>All questions and responses&nbsp;should be able to
-						asked/received in natural language(with nbn-specific jargon)</li>
-					<li>Audit and Loggin.</li>
-				</ol>
-			</div>
-			<div id="" class="col-sm-5">
-				<label class="labelone">NON-GOALS</label>
-				<ol type="1" class="orderedlistone">
-					<li>Voice- asking questions and returning answers.</li>
-					<li>Returning visualization within the interface.</li>
-					<li>The virtual assistant understands my context as a user
-						before I ask question based on organisational details associated
-						with my account.</li>
-					<li>Single Sign-on for nbn users.</li>
-					<li>Auto fill features while typing in the Chat window in
-						English or using NBN specific words, spell check.</li>
-				</ol>
-
-			</div>
-
-		</div>
-	</div>
-
-
-	<!-- GOAL PRIORITIZATION-->
-	<div id="nine">
-		<div align="center">
-			<label
-				style="padding-bottom: 30px; padding-top: 10px; color: #ffffff; font-family: Open Sans; font-size: 30px; font-weight: 600;">GOAL
-				PRIORITIZATION</label>
-		</div>
-
-		<div id="" style="padding-bottom: 10px">
-			<div id="" class="col-sm-6"
-				style="padding-left: 60px; padding-top: 10px">
-				<ul class="dashed">
-					<li>Textual in interaction with the Bot</li>
-					<li>Provide feedback on the quality of the response</li>
-					<li>Ask basic queries to the Bot</li>
-					<li>Capable of providing definitions for nbn jargons</li>
-					<li>Capable of answering basic comparison questions</li>
-					<li>Provide disclaimer on the sensitive information</li>
-					<li>Quick response</li>
-					<li>Able to understand conversation context</li>
-					<li>Refer user to an existing report or analyst</li>
-					<li>Bot is able to ask clarification questions to the user</li>
-					<li>Login to Bot</li>
-					<li>Chat appears as a pop up and goes full screen</li>
-					<li>All questions and answer in natural language, currently
-						English</li>
 				</ul>
 			</div>
-			<div id="" class="col-sm-6">
-				<img alt="" src="images/image_Goal_Prioritization-Block.png">
-
-			</div>
-
-		</div>
-	</div>
-
-
-	<!-- team-->
-	<div id="ten" style="padding-left: 60px">
-		<div align="center">
-			<label
-				style="padding-bottom: 30px; padding-top: 10px; color: #ffffff; font-family: Open Sans; font-size: 30px; font-weight: 600;">TEAM</label>
 		</div>
 
-		<div id="myrowone" align="center">
-			<div id="" class="col-sm-4">
-				<div>
-					<img alt="" src="images/team_SridharKunchala.png">
-				</div>
-				<div>
-					<label class="namehead">Sridhar Kunchala</label><br> <label
-						class="designation">Lead-ACIT Cloud Studio IDC</label>
-				</div>
-			</div>
-			<div id="" class="col-sm-4">
-				<div>
-					<img alt="" src="images/team_AtulFulambarkar.png">
-				</div>
-				<div>
-					<label class="namehead">Atul Fulambarkar</label> <br> <label
-						class="designation">Watson Architect</label>
-				</div>
-			</div>
-			<div id="" class="col-sm-4">
-				<div>
-					<img alt="" src="images/team_VeenaMenon.png">
-				</div>
-				<div>
-					<label class="namehead">Veena Menon</label> <br> <label
-						class="designation">Scrum Master & Integration Developer</label>
-				</div>
-			</div>
-		</div>
-		<div id="myrowtwo" style="padding-top: 50px;" align="center">
-			<div id="a" class="col-sm-4"">
-				<div>
-					<img alt="" src="images/team_UmeshChowdaiah.png">
-				</div>
-				<div>
-					<label class="namehead">Umesh Chowdaiah</label> <br> <label
-						class="designation">UX Resources</label>
-				</div>
-			</div>
-			<div id="b" class="col-sm-4">
-				<div>
-					<img alt="" src="images/team_DaksheshPatel.png">
-				</div>
-				<div>
-					<label class="namehead">Dakshesh Patel</label> <br> <label
-						class="designation">Watson Developer</label>
-				</div>
-			</div>
-			<div id="c" class="col-sm-4">
-				<div>
-					<img alt="" src="images/team_GopalRengaraj.png">
-				</div>
-				<div>
-					<label class="namehead">Gopal Rengaraj</label><br> <label
-						class="designation">UI Developer</label>
+
+		<div class="second-container row">
+			<div id="second" class="main-image row" style="height: 441px">
+				<div id="second_one" class="col-sm-6"></div>
+				<div align="center" id="second_two" class="col-sm-6">
+					<label class="design">Design Thinking Workshop</label> <label
+						class="nbn">NBN @ ACIT Cloud Studio</label>
 				</div>
 			</div>
 		</div>
 
-	</div>
+		<!-- Summary-->
+		<div id="third">
+			<div align="center">
+				<label
+					style="padding-bottom: 15px; padding-top: 10px; color: #000000; font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica; font-size: 30px; font-weight: 600;">SUMMARY
+				</label>
+			</div>
+			<div style="padding-left: 60px;" id="">
+				<div id="" class="col-sm-3">
+					<label class="summary_tittle" style="font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica; ">WHO</label> <br>
+					<p class="summary_content">A one day ACIT Design Thinking
+						workshop brought together a multi-disciplinary team from Accenture
+						to define a quick approach to NBN information seeking process on
+						FTTX deployment metrics</p>
+				</div>
+				<div id="" class="col-sm-3">
+					<label class="summary_tittle">APPROACH</label> <br>
+					<p class="summary_content">Design thinking workshop helped
+						participants empathize with the project's persona: Benoit, an NBN
+						manager. Empathizing with the Persona led the team to identifying
+						the several pain points reflected on feelings during the process
+						of getting information : Frustration, Confusion and time
+						consuming.</p>
+				</div>
+				<div id="" class="col-sm-6">
+					<label class="summary_tittle">VISION & HYPOTHESIS</label> <br>
+					<p class="summary_content">
+						After ideating ways to solve Benoit's needs, the team established
+						the project vision that will give direction to a product design:
+						"As an nbn manager. Benoit can interact with virtual assistant to
+						receive accurate answers in few seconds to questions about data,
+						metrics and analyses. The experience would be similar to that of
+						interacting with human analyst within his team." <br> <br>The
+						team agreed on a hypothesis that will help to test success
+						metrics:<br>-Quicker access to information <br>-Consistency
+						of information provided
+					</p>
+				</div>
+			</div>
 
+			<div id="" style="padding-left: 60px;">
+				<div id="" class="col-sm-3">
+					<label class="summary_tittle">GAOLS AND NON-GOALS</label> <br>
+					<p class="summary_content">At the end of the session the team
+						defines future actions to help provide more clarity on what is
+						in/out of scope on a minimal viable product (MVP).</p>
+				</div>
+				<div id="" class="col-sm-3">
+					<label class="summary_tittle">UNDERSTAND</label> <br>
+					<p class="summary_content">
+						Business Opportunity<br> <br>Persona
+					</p>
+				</div>
+				<div id="" class="col-sm-3">
+					<label class="summary_tittle">EXPLORE</label> <br>
+					<p class="summary_content">
+						Scenario Mapping<br> <br>Empathy Map
+					</p>
+				</div>
+				<div id="" class="col-sm-3">
+					<label class="summary_tittle">DEFINE</label><br>
+					<p class="summary_content">
+						MVP<br> <br>Goal Prioritization<br> <br>Goals
+						and Non-Goal<br> <br>Assumptions and Risks
+					</p>
+				</div>
+			</div>
 
-
-
-
-	<!-- last -->
-	<div id="last">
-		<
-		<div align="center">
-			<label
-				style="padding-bottom: 30px; padding-top: 10px; color: #ffffff; font-family: Open Sans; font-size: 30px; font-weight: 600;">CONTACT</label>
 		</div>
-		<div id="contactlink" style="padding-left: 60px">
-			<div class="col-sm-3">
-				<img style="padding-left: 5px;" alt="" src="images/icon_Mail.png">
-				<a href="#summary">EMAIL</a>
+
+		<!-- Business Opportunity-->
+		<div id="forth">
+			<div align="center">
+				<label
+					style="padding-bottom: 15px; padding-top: 10px; color: #ffffff; font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica; font-size: 30px; font-weight: 600;">BUSINESS
+					OPPORTUNITY </label>
 			</div>
 
-			<div class="col-sm-3">
-				<img style="padding-left: 5px;" alt="" src="images/icon_Home.png">
-				<a href="#summary">ACIT HOME</a>
+			<div align="left">
+				<label
+					style="padding-left: 60px; padding-bottom: 15px; padding-top: 30px; color: #ffffff; font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica; font-size: 20px; font-weight: 600;">Virtual
+					assistant for providing FTTX deployment metrics</label>
+				<p
+					style="padding-left: 60px; padding-bottom: 15px; padding-top: 10px; padding-right: 60px; color: #ffffff; font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica; font-size: 18px;">Currently,
+					the NBN users get access to FTTX deployment metrics via an email
+					sent to the analyst. Currently, a significant amount of time and
+					effort is spent by analysts and SMEs in catering to the information
+					requests of the winder organisation. Replacing the existing system
+					with a Virtual Assistant, would act as a single source of truth for
+					the organisation for metrics and related information about the
+					progress of FTTX. Misalignment in number and information can be
+					avoided. Duplicate of reporting can be avoided</p>
+			</div>
+		</div>
+		<!-- Persona abd Empthy-->
+		<div id="fifth">
+			<div align="center">
+				<label
+					style="padding-bottom: 30px; padding-top: 10px; color: #ffffff; font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica; font-size: 30px; font-weight: 600;">PERSONA
+					AND EMPATHY MAP</label>
 			</div>
 
-			<div class="col-sm-3">
-				<img style="padding-left: 5px;" alt="" src="images/icon_Cloud.png">
-				<a href="#summary">CLOUD STUDIO</a>
+			<div id="">
+				<div id="" class="col-sm-6" style="padding-left: 60px">
+					<label
+						style="color: #ffffff; font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica; font-size: 14px; font-weight: 600;">PERSONA</label>
+				</div>
+				<div id="" class="col-sm-6">
+					<label
+						style="color: #ffffff; font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica; font-size: 14px; font-weight: 600;">EMPATHY
+						MAP</label> <br> <label
+						style="color: #ffffff; font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica; font-size: 13px;">Allows
+						us to gain deeper insight of our target users thinking of them as
+						a persona</label>
+
+				</div>
+
 			</div>
-
-			<div class="col-sm-3">
-				<img style="padding-left: 5px;" alt="" src="images/icon_group.png">
-				<a href="#summary">DEMO CATALOG</a>
-
+			<div id="" style="padding-top: 5px">
+				<div id="fifth_one" class="col-sm-6"
+					style="height: 340px; padding-left: 60px">
+					<img alt="" src="images/image_Persona_Block.png">
+				</div>
+				<div id="fifth_two" class="col-sm-6" style="height: 340px;">
+					<img alt="" src="images/image2_Persona_Block.png">
+				</div>
 			</div>
 
 		</div>
 
-		<footer>
-			<label style="font-size: 10px; color: #FFFFFF">&copy; 2016
-				Accenture Center for IBM Technologies(ACIT)</label>
-		</footer>
-	</div>
+
+		<!-- Scenario mapping-->
+		<div id="sixth">
+			<div align="center">
+				<label
+					style="padding-bottom: 30px; padding-top: 10px; color: #ffffff; font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica; font-size: 30px; font-weight: 600;">SENARIO
+					MAPPING</label>
+			</div>
+
+			<div id="" style="padding-bottom: 10px">
+				<div id="" class="col-sm-6" style="padding-left: 60px">
+					<label
+						style="color: #ffffff; font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica; font-size: 14px; font-weight: 600;">AS
+						IS PROCESS</label>
+				</div>
+				<div id="" class="col-sm-6">
+					<label
+						style="color: #ffffff; font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica; font-size: 14px; font-weight: 600;">TO
+						BE PROCESSED</label>
+
+				</div>
+
+			</div>
+			<div id="" style="padding-top: 15px">
+				<div id="sixth_one" class="col-sm-6"
+					style="height: 335px; padding-left: 60px">
+					<img alt="" src="images/Image_Asis_process_Block.png">
+				</div>
+				<div id="sixth_two" class="col-sm-6" style="height: 335px;">
+					<img alt="" src="images/image_Tobeprocess_Block.png">
+				</div>
+			</div>
+
+		</div>
 
 
 
 
+		<!-- MVP-->
+		<div id="seventh">
+			<div align="center"
+				style="vertical-align: middle; position: relative;">
+				<label
+					style="position: absolute; vertical-align: middle; padding-bottom: 30px; padding-top: 10px; color: #ffffff; font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica; font-size: 30px; font-weight: 600;">MVP</label>
+			</div>
+
+			<div id="" style="padding-bottom: 10px; padding-top: 20px">
+				<div id="" class="col-sm-6"
+					style="padding-left: 60px; padding-top: 80px">
+					<label
+						style="color: #ffffff; font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica; font-size: 20px; font-weight: 600;">Minimum
+						Viable Product(MVP)</label> <br> <br> <label
+						style="color: #ffffff; font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica;font-size: 18px;">The
+						minimum features that shall be included in the product and
+						delivered at the end of first cycle of development. Each cycle
+						contains a set of Sprints.</label> <br> <br> <label
+						style="color: #ffffff; font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica; font-size: 18px;">As
+						an nbn manager, I can interact with a virtual assistant to receive
+						accurate answers in 2 seconds to questions about data, metrics and
+						analyses. The experience would be similar to that of interacting
+						with a human analyst within my team.</label>
+				</div>
+				<div id="" class="col-sm-6">
+					<img alt="" src="images/Image_MVP_Block.png">
+
+				</div>
+
+			</div>
+
+
+		</div>
+
+
+
+		<!-- goal and nongoal-->
+		<div id="eight">
+			<div align="center">
+				<label
+					style="padding-bottom: 30px; padding-top: 10px; color: #ffffff; font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica; font-size: 30px; font-weight: 600;">GOAL
+					& NON GOALS</label>
+			</div>
+
+
+
+
+
+			<div id="" style="padding-bottom: 10px">
+				<div id="" class="col-sm-7"
+					style="padding-left: 60px; padding-top: 10px">
+					<label class="labelone"> GOALS </label>
+					<ol type="1" class="orderedlistone">
+						<li>Capture usage statistics</li>
+						<li>Text interaction</li>
+						<li>I can provide feedback on the quality of response to the
+							assistant</li>
+						<li>To be able to do basic queries(e.g.: How many premises
+							were connected last week? ) in given dataset. Numeric answer
+							should be returned with clarification text (E.g.:There were 30000
+							premises connected(Reached RFS) last week.)</li>
+						<li>To be able to provide definitions (E.g.: What is the
+							definition of metric M15?)</li>
+						<li>To be able to do basic comparison queries (e.g.: How has
+							the cycle time of process ABC improved over last month?; Virtual
+							Assistant should return an answer such as Cycle time of process
+							ABC reduced from 30 days to 25 days)</li>
+						<li>A mechanism to alert the user that information they are
+							accessing is confidential or sensitive.</li>
+						<li>A response within a matter of seconds.</li>
+						<li>It should be able to follow on the context of a question
+							from the previos question: similar to an open conversation (E.g :
+							User: How many SAMs completed construction last week? Virtual
+							Assistant: 0 SAMs completed construction last week. User:What
+							about this week? Virtual Assistant : 5 SAMs completed
+							construction this week)</li>
+						<li>If the virtual assistant cannot provide the answer, it
+							should refer the user to a specific person or other report.</li>
+						<li>Virtual Assistant is able to ask clarification questions.</li>
+						<li>Stand-alone Login page to stimulate the experience of a
+							user signing in from the internet.</li>
+						<li>Virtual Assistant will appear as a pop-up that can be
+							made full screen</li>
+						<li>English Language</li>
+						<li>All questions and responses&nbsp;should be able to
+							asked/received in natural language(with nbn-specific jargon)</li>
+						<li>Audit and Loggin.</li>
+					</ol>
+				</div>
+				<div id="" class="col-sm-5">
+					<label class="labelone">NON-GOALS</label>
+					<ol type="1" class="orderedlistone">
+						<li>Voice- asking questions and returning answers.</li>
+						<li>Returning visualization within the interface.</li>
+						<li>The virtual assistant understands my context as a user
+							before I ask question based on organisational details associated
+							with my account.</li>
+						<li>Single Sign-on for nbn users.</li>
+						<li>Auto fill features while typing in the Chat window in
+							English or using NBN specific words, spell check.</li>
+					</ol>
+
+				</div>
+
+			</div>
+		</div>
+
+
+		<!-- GOAL PRIORITIZATION-->
+		<div id="nine">
+			<div align="center">
+				<label
+					style="padding-bottom: 30px; padding-top: 10px; color: #ffffff; font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica; font-size: 30px; font-weight: 600;">GOAL
+					PRIORITIZATION</label>
+			</div>
+
+			<div id="" style="padding-bottom: 10px">
+				<div id="" class="col-sm-6"
+					style="padding-left: 60px; padding-top: 10px">
+					<ul class="dashed">
+						<li>Textual in interaction with the Bot</li>
+						<li>Provide feedback on the quality of the response</li>
+						<li>Ask basic queries to the Bot</li>
+						<li>Capable of providing definitions for nbn jargons</li>
+						<li>Capable of answering basic comparison questions</li>
+						<li>Provide disclaimer on the sensitive information</li>
+						<li>Quick response</li>
+						<li>Able to understand conversation context</li>
+						<li>Refer user to an existing report or analyst</li>
+						<li>Bot is able to ask clarification questions to the user</li>
+						<li>Login to Bot</li>
+						<li>Chat appears as a pop up and goes full screen</li>
+						<li>All questions and answer in natural language, currently
+							English</li>
+					</ul>
+				</div>
+				<div id="" class="col-sm-6">
+					<img alt="" src="images/image_Goal_Prioritization-Block.png">
+
+				</div>
+
+			</div>
+		</div>
+
+		<!-- team-->
+		<div id="ten" style="padding-left: 60px">
+			<div align="center">
+				<label
+					style="padding-bottom: 30px; padding-top: 10px; color: #ffffff; font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica; font-size: 30px; font-weight: 600;">TEAM</label>
+			</div>
+
+			<div id="myrowone" align="center" style="height: 250px;">
+				<div id="" class="col-sm-4">
+					<div>
+						<img alt="" src="images/team_SridharKunchala.png">
+					</div>
+					<div>
+						<label class="namehead">Sridhar Kunchala</label><br> <label
+							class="designation">Lead-ACIT Cloud Studio IDC</label>
+					</div>
+				</div>
+				<div id="" class="col-sm-4">
+					<div>
+						<img alt="" src="images/team_AtulFulambarkar.png">
+					</div>
+					<div>
+						<label class="namehead">Atul Fulambarkar</label> <br> <label
+							class="designation">Watson Architect</label>
+					</div>
+				</div>
+				<div id="" class="col-sm-4">
+					<div>
+						<img alt="" src="images/team_VeenaMenon.png">
+					</div>
+					<div>
+						<label class="namehead">Veena Menon</label> <br> <label
+							class="designation">Scrum Master & Integration Developer</label>
+					</div>
+				</div>
+			</div>
+			<div id="myrowtwo" style="padding-top: 50px;" align="center">
+				<div id="a" class="col-sm-4">
+					<div>
+						<img alt="" src="images/team_UmeshChowdaiah.png">
+					</div>
+					<div>
+						<label class="namehead">Umesh Chowdaiah</label> <br> <label
+							class="designation">UX Resources</label>
+					</div>
+				</div>
+				<div id="b" class="col-sm-4">
+					<div>
+						<img alt="" src="images/team_DaksheshPatel.png">
+					</div>
+					<div>
+						<label class="namehead">Dakshesh Patel</label> <br> <label
+							class="designation">Watson Developer</label>
+					</div>
+				</div>
+				<div id="c" class="col-sm-4">
+					<div>
+						<img alt="" src="images/team_GopalRengaraj.png">
+					</div>
+					<div>
+						<label class="namehead">Gopal Rengaraj</label><br> <label
+							class="designation">UI Developer</label>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<!-- last -->
+		<div id="last">
+			<
+			<div align="center">
+				<label
+					style="padding-bottom: 30px; padding-top: 10px; color: #ffffff; font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica; font-size: 30px; font-weight: 600;">CONTACT</label>
+			</div>
+			<div id="contactlink" style="padding-left: 60px; padding-top: 30px">
+				<div class="col-sm-3">
+					<img style="padding-left: 5px;" alt="" src="images/icon_Mail.png">
+					<a href="#summary">EMAIL</a>
+				</div>
+
+				<div class="col-sm-3">
+					<img style="padding-left: 5px;" alt="" src="images/icon_Home.png">
+					<a href="#summary">ACIT HOME</a>
+				</div>
+
+				<div class="col-sm-3">
+					<img style="padding-left: 5px;" alt="" src="images/icon_Cloud.png">
+					<a href="#summary">CLOUD STUDIO</a>
+				</div>
+
+				<div class="col-sm-3">
+					<img style="padding-left: 5px;" alt="" src="images/icon_group.png">
+					<a href="#summary">DEMO CATALOG</a>
+
+				</div>
+				<div>
+					<footer class="navbar-fixed-bottom">
+						<div class="small container" align="center">
+							<div style="font-size: 10px; color: #FFFFFF">&copy; 2016
+								Accenture Center for IBM Technologies(ACIT)</div>
+						</div>
+					</footer>
+				</div>
+
+			</div>
+
+
+		</div>
+</body>
+</html>
 
 </body>
 </html>
