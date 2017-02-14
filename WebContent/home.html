@@ -15,6 +15,13 @@
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="lib/angularDemo.js"></script>
 <style>
+
+@font-face {
+	font-family: OpenSans-Regular;
+	src: url(fonts/OpenSans-Regular.ttf);
+}
+
+
 body {
 	background-color: #f2f2f2;
 }
@@ -35,7 +42,7 @@ body {
 #menu a {
 	text-decoration: none;
 	color: #666666;
-	font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica;
+	font-family: OpenSans-Regular;
 	font-size: 14px;
 	text-align: center;
 	padding: 4px;
@@ -45,7 +52,7 @@ body {
 	background-color: #00baed;
 	border: 4px;
 	Color: #FFFFFF;
-	font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica;
+	font-family: OpenSans-Regular;
 	font-size: 14px;
 	padding: 4px;
 }
@@ -56,7 +63,7 @@ body {
 	padding: 4px;
 	Border-Radius: 4px;
 	color: : #FFFFFF;
-	font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica;
+	font-family: OpenSans-Regular;
 	font-size: 14px;
 	padding: 4px;
 }
@@ -79,12 +86,13 @@ body {
 	width: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
+
 }
 
 #third label.summary_tittle {
 	background-color: #00baed;
 	color: #FFFFFF;
-	font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica;
+	font-family: OpenSans-Regular;
 	font-weight: 600;
 	font-size: 18px;
 	border: 4px;
@@ -97,7 +105,7 @@ body {
 
 #third p.summary_content {
 	color: #000000;
-	font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica;
+	font-family: OpenSans-Regular;
 	font-size: 13px;
 }
 
@@ -180,20 +188,20 @@ ul.dashed>li:before {
 ul.dashed {
 	list-style: none;
 	color: #ffffff;
-	font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica;
+	font-family: OpenSans-Regular;
 	font-size: 14px;
 }
 
 ol.orderedlistone {
 	color: #ffffff;
-	font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica;
+	font-family: OpenSans-Regular;
 	font-size: 14px;
 	padding-top: 5px;
 }
 
 label.labelone {
 	color: #ffffff;
-font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica;
+font-family: OpenSans-Regular;
 	font-size: 20px;
 	font-weight: 600;
 	padding-left: 20px;
@@ -209,14 +217,14 @@ font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica;
 
 label.namehead {
 	color: #ffffff;
-	font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica;
+	font-family: OpenSans-Regular;
 	font-size: 18px;
 	text-align: center;
 }
 
 #ten label.designation {
 	color: #ffffff;
-font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica;
+font-family: OpenSans-Regular;
 	font-size: 14px;
 	text-align: center;
 }
@@ -239,13 +247,13 @@ font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica;
 
 #last a {
 	color: #00baed;
-	font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica;
+	font-family: OpenSans-Regular;
 	font-size: 18px;
 }
 
 a.contactlink {
 	color: #00baed;
-	font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica;
+	font-family: OpenSans-Regular;
 	font-size: 18px;
 }
 </style>
@@ -256,7 +264,7 @@ a.contactlink {
 
 	<div class="main-p-container">
 		<div class="menu-container row" id="first">
-			<div class="col col-md-2" style="">
+			<div class="col-md-2 col-sm-2 col-xs-2" style="">
 				<img src="images/NBN_Logo.png" style="padding-left: 10px;padding-top: 10px;padding-bottom: 10px"/>
 			</div>
 			<div id="menu" class="col"
@@ -277,10 +285,10 @@ a.contactlink {
 		</div>
 
 
-		<div class="second-container row">
-			<div id="second" class="main-image row" style="height: 441px">
-				<div id="second_one" class="col-sm-6"></div>
-				<div align="center" id="second_two" class="col-sm-6">
+		<div class="second-container">
+			<div id="second" class="main-image" style="height: 441px">
+				<div id="second_one" class="col-md-6 col-sm-6 col-xs-6"></div>
+				<div align="center" id="second_two" class="col-md-6 col-sm-6 col-xs-6">
 					<label class="design">Design Thinking Workshop</label> <label
 						class="nbn">NBN @ ACIT Cloud Studio</label>
 				</div>
@@ -295,14 +303,14 @@ a.contactlink {
 				</label>
 			</div>
 			<div style="padding-left: 60px;" id="">
-				<div id="" class="col-sm-3">
+				<div id="" class="col-md-3 col-sm-3 col-xs-3">
 					<label class="summary_tittle" style="font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica; ">WHO</label> <br>
 					<p class="summary_content">A one day ACIT Design Thinking
 						workshop brought together a multi-disciplinary team from Accenture
 						to define a quick approach to NBN information seeking process on
 						FTTX deployment metrics</p>
 				</div>
-				<div id="" class="col-sm-3">
+				<div id="" class="col-md-3 col-sm-3 col-xs-3">
 					<label class="summary_tittle">APPROACH</label> <br>
 					<p class="summary_content">Design thinking workshop helped
 						participants empathize with the project's persona: Benoit, an NBN
@@ -311,7 +319,7 @@ a.contactlink {
 						of getting information : Frustration, Confusion and time
 						consuming.</p>
 				</div>
-				<div id="" class="col-sm-6">
+				<div id="" class="col-md-6 col-sm-6 col-xs-6">
 					<label class="summary_tittle">VISION & HYPOTHESIS</label> <br>
 					<p class="summary_content">
 						After ideating ways to solve Benoit's needs, the team established
@@ -328,25 +336,25 @@ a.contactlink {
 			</div>
 
 			<div id="" style="padding-left: 60px;">
-				<div id="" class="col-sm-3">
+				<div id="" class="col-md-3 col-sm-3 col-xs-3">
 					<label class="summary_tittle">GAOLS AND NON-GOALS</label> <br>
 					<p class="summary_content">At the end of the session the team
 						defines future actions to help provide more clarity on what is
 						in/out of scope on a minimal viable product (MVP).</p>
 				</div>
-				<div id="" class="col-sm-3">
+				<div id="" class="col-md-3 col-sm-3 col-xs-3">
 					<label class="summary_tittle">UNDERSTAND</label> <br>
 					<p class="summary_content">
 						Business Opportunity<br> <br>Persona
 					</p>
 				</div>
-				<div id="" class="col-sm-3">
+				<div id="" class="col-md-3 col-sm-3 col-xs-3">
 					<label class="summary_tittle">EXPLORE</label> <br>
 					<p class="summary_content">
 						Scenario Mapping<br> <br>Empathy Map
 					</p>
 				</div>
-				<div id="" class="col-sm-3">
+				<div id="" class="col-md-3 col-sm-3 col-xs-3">
 					<label class="summary_tittle">DEFINE</label><br>
 					<p class="summary_content">
 						MVP<br> <br>Goal Prioritization<br> <br>Goals
@@ -390,11 +398,11 @@ a.contactlink {
 			</div>
 
 			<div id="">
-				<div id="" class="col-sm-6" style="padding-left: 60px">
+				<div id="" class="col-md-6 col-sm-6 col-xs-6" style="padding-left: 60px">
 					<label
 						style="color: #ffffff; font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica; font-size: 14px; font-weight: 600;">PERSONA</label>
 				</div>
-				<div id="" class="col-sm-6">
+				<div id="" class="col-md-6 col-sm-6 col-xs-6">
 					<label
 						style="color: #ffffff; font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica; font-size: 14px; font-weight: 600;">EMPATHY
 						MAP</label> <br> <label
@@ -406,11 +414,11 @@ a.contactlink {
 
 			</div>
 			<div id="" style="padding-top: 5px">
-				<div id="fifth_one" class="col-sm-6"
+				<div id="fifth_one" class="col-md-6 col-sm-6 col-xs-6"
 					style="height: 340px; padding-left: 60px">
 					<img alt="" src="images/image_Persona_Block.png">
 				</div>
-				<div id="fifth_two" class="col-sm-6" style="height: 340px;">
+				<div id="fifth_two" class="col-md-6 col-sm-6 col-xs-6" style="height: 340px;">
 					<img alt="" src="images/image2_Persona_Block.png">
 				</div>
 			</div>
@@ -427,12 +435,12 @@ a.contactlink {
 			</div>
 
 			<div id="" style="padding-bottom: 10px">
-				<div id="" class="col-sm-6" style="padding-left: 60px">
+				<div id="" class="col-md-6 col-sm-6 col-xs-6" style="padding-left: 60px">
 					<label
 						style="color: #ffffff; font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica; font-size: 14px; font-weight: 600;">AS
 						IS PROCESS</label>
 				</div>
-				<div id="" class="col-sm-6">
+				<div id="" class="col-md-6 col-sm-6 col-xs-6">
 					<label
 						style="color: #ffffff; font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica; font-size: 14px; font-weight: 600;">TO
 						BE PROCESSED</label>
@@ -441,11 +449,11 @@ a.contactlink {
 
 			</div>
 			<div id="" style="padding-top: 15px">
-				<div id="sixth_one" class="col-sm-6"
+				<div id="sixth_one" class="col-md-6 col-sm-6 col-xs-6"
 					style="height: 335px; padding-left: 60px">
 					<img alt="" src="images/Image_Asis_process_Block.png">
 				</div>
-				<div id="sixth_two" class="col-sm-6" style="height: 335px;">
+				<div id="sixth_two" class="col-md-6 col-sm-6 col-xs-6" style="height: 335px;">
 					<img alt="" src="images/image_Tobeprocess_Block.png">
 				</div>
 			</div>
@@ -464,7 +472,7 @@ a.contactlink {
 			</div>
 
 			<div id="" style="padding-bottom: 10px; padding-top: 20px">
-				<div id="" class="col-sm-6"
+				<div id="" class="col-md-6 col-sm-6 col-xs-6"
 					style="padding-left: 60px; padding-top: 80px">
 					<label
 						style="color: #ffffff; font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica; font-size: 20px; font-weight: 600;">Minimum
@@ -479,7 +487,7 @@ a.contactlink {
 						analyses. The experience would be similar to that of interacting
 						with a human analyst within my team.</label>
 				</div>
-				<div id="" class="col-sm-6">
+				<div id="" class="col-md-6 col-sm-6 col-xs-6">
 					<img alt="" src="images/Image_MVP_Block.png">
 
 				</div>
@@ -504,7 +512,7 @@ a.contactlink {
 
 
 			<div id="" style="padding-bottom: 10px">
-				<div id="" class="col-sm-7"
+				<div id="" class="col-md-7 col-sm-7 col-xs-7"
 					style="padding-left: 60px; padding-top: 10px">
 					<label class="labelone"> GOALS </label>
 					<ol type="1" class="orderedlistone">
@@ -544,7 +552,7 @@ a.contactlink {
 						<li>Audit and Loggin.</li>
 					</ol>
 				</div>
-				<div id="" class="col-sm-5">
+				<div id="" class="col-md-5 col-sm-5 col-xs-5">
 					<label class="labelone">NON-GOALS</label>
 					<ol type="1" class="orderedlistone">
 						<li>Voice- asking questions and returning answers.</li>
@@ -572,7 +580,7 @@ a.contactlink {
 			</div>
 
 			<div id="" style="padding-bottom: 10px">
-				<div id="" class="col-sm-6"
+				<div id="" class="col-md-6 col-sm-6 col-xs-6"
 					style="padding-left: 60px; padding-top: 10px">
 					<ul class="dashed">
 						<li>Textual in interaction with the Bot</li>
@@ -591,7 +599,7 @@ a.contactlink {
 							English</li>
 					</ul>
 				</div>
-				<div id="" class="col-sm-6">
+				<div id="" class="col-md-6 col-sm-6 col-xs-6">
 					<img alt="" src="images/image_Goal_Prioritization-Block.png">
 
 				</div>
@@ -607,7 +615,7 @@ a.contactlink {
 			</div>
 
 			<div id="myrowone" align="center" style="height: 250px;">
-				<div id="" class="col-sm-4">
+				<div id="" class="col-md-4 col-sm-4 col-xs-4">
 					<div>
 						<img alt="" src="images/team_SridharKunchala.png">
 					</div>
@@ -616,7 +624,7 @@ a.contactlink {
 							class="designation">Lead-ACIT Cloud Studio IDC</label>
 					</div>
 				</div>
-				<div id="" class="col-sm-4">
+				<div id="" class="col-md-4 col-sm-4 col-xs-4">
 					<div>
 						<img alt="" src="images/team_AtulFulambarkar.png">
 					</div>
@@ -625,7 +633,7 @@ a.contactlink {
 							class="designation">Watson Architect</label>
 					</div>
 				</div>
-				<div id="" class="col-sm-4">
+				<div id="" class="col-md-4 col-sm-4 col-xs-4">
 					<div>
 						<img alt="" src="images/team_VeenaMenon.png">
 					</div>
@@ -636,7 +644,7 @@ a.contactlink {
 				</div>
 			</div>
 			<div id="myrowtwo" style="padding-top: 50px;" align="center">
-				<div id="a" class="col-sm-4">
+				<div id="a" class="col-md-4 col-sm-4 col-xs-4">
 					<div>
 						<img alt="" src="images/team_UmeshChowdaiah.png">
 					</div>
@@ -645,7 +653,7 @@ a.contactlink {
 							class="designation">UX Resources</label>
 					</div>
 				</div>
-				<div id="b" class="col-sm-4">
+				<div id="b" class="col-md-4 col-sm-4 col-xs-4">
 					<div>
 						<img alt="" src="images/team_DaksheshPatel.png">
 					</div>
@@ -654,7 +662,7 @@ a.contactlink {
 							class="designation">Watson Developer</label>
 					</div>
 				</div>
-				<div id="c" class="col-sm-4">
+				<div id="c" class="col-md-4 col-sm-4 col-xs-4">
 					<div>
 						<img alt="" src="images/team_GopalRengaraj.png">
 					</div>
@@ -675,22 +683,22 @@ a.contactlink {
 					style="padding-bottom: 30px; padding-top: 10px; color: #ffffff; font-family: OpenSans,'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica; font-size: 30px; font-weight: 600;">CONTACT</label>
 			</div>
 			<div id="contactlink" style="padding-left: 60px; padding-top: 30px">
-				<div class="col-sm-3">
+				<div class="col-md-3 col-sm-3 col-xs-3">
 					<img style="padding-left: 5px;" alt="" src="images/icon_Mail.png">
 					<a href="#summary">EMAIL</a>
 				</div>
 
-				<div class="col-sm-3">
+				<div class="col-md-3 col-sm-3 col-xs-3">
 					<img style="padding-left: 5px;" alt="" src="images/icon_Home.png">
 					<a href="#summary">ACIT HOME</a>
 				</div>
 
-				<div class="col-sm-3">
+				<div class="col-md-3 col-sm-3 col-xs-3">
 					<img style="padding-left: 5px;" alt="" src="images/icon_Cloud.png">
 					<a href="#summary">CLOUD STUDIO</a>
 				</div>
 
-				<div class="col-sm-3">
+				<div class="col-md-3 col-sm-3 col-xs-3">
 					<img style="padding-left: 5px;" alt="" src="images/icon_group.png">
 					<a href="#summary">DEMO CATALOG</a>
 
